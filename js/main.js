@@ -1,4 +1,4 @@
-var name = alert('Lets make a story together!');
+var name = alert('Let’s make a story together!');
 
 var colour = prompt('A colour (orange, indigo, etc.)');
 
@@ -8,7 +8,7 @@ var adjective = prompt('An adjective (beautiful, super, etc.)');
 
 var verb = prompt('A past tense verb (ran, burped, etc.)');
 
-var story = prompt('Which story would you like? a)Snacking b)Escaping c)Winning Enter the letter below:');
+var story = prompt('Which story would you like? \n a)Snacking \n b)Escaping \n c)Winning \n Enter the letter below:');
 
 if (story = 'a') {
   document.write('After snacking on' + adjective + 'treats, the' + colour + 'bellied' + creature + ' ' + verb + 'for hours.');
